@@ -1,0 +1,132 @@
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block;
+}
+body {
+	margin:0px; padding:0px;
+	background-color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#000;
+	font-size:13px;
+	line-height:20px;
+}
+a img{
+	border:none;
+}
+img {
+	max-width: 100%;
+	height: auto;
+    width: auto; /* for ie 8 */
+}
+#logo {
+	min-width:180px;
+	min-height:75px;
+	max-width:374px;/* Ширина блока */
+	margin:0 auto;
+	background:#FFF url(img/1logo.png) no-repeat;
+	background-size:100%;
+	/*cursor:pointer;*/
+}
+
+#logo:hover{
+	background-image:url(img/2logo.png);
+	/*border:#0F0 solid 1px;*/
+}
+.disabled{
+	display:none;
+}
+#myemail{
+	width:180px;
+	text-align:center;
+	margin:0 auto;
+}
+#myemail a{
+	text-decoration:none;
+	color:#333;
+}
+#myemail a:hover{
+	color:#6DAE04;
+}
+#wrapper{
+	min-width:180px;
+	max-width:1600px;
+	margin:0 auto;
+	padding:2%;	
+}
+.mytext{
+	max-width:500px;
+	margin:0 auto;
+	padding:1%;
+	border:#03F solid 1px;
+	border-radius:0.8em; 
+	-webkit-border-radius:0.8em; 
+	-moz-border-radius:0.8em; 
+	-khtml-border-radius:0.8em;
+}
+.yashare-auto-init{
+	width:154px !important;
+	margin:0 auto !important;
+}
+#mychat{
+	display:none;
+	background: #e6e6e6;
+	padding: 2%;
+	margin-bottom: 35px;
+	border:none;
+}
+input, textarea{
+	display:block;
+	width: 95%;
+	height: 50px;
+	font-size: 22px;
+	font-weight: 300;
+	color: #909090;
+	padding-left: 4%;
+	border: 1px solid #cfcfcf;
+	margin-bottom: 20px;
+}
+textarea{
+	resize:none;
+	height:150px;
+}
+.submit {
+	width: 100%;
+	height: 52px;
+	line-height: 52px;
+	background: #e8534f;
+	text-align: center;
+	font-size: 22px;
+	font-weight: 300;
+	color: #fff;
+	border: 1px solid #e8534f;
+	cursor: pointer;
+}
+.submit:hover {
+	background: #cf4a46;
+	border: 1px solid #cf4a46;
+}
+.ermessage{
+	color:#F00;
+}
+.success {
+  padding: 1em;
+  margin-bottom: 0.75rem;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #468847;
+  background-color: #dff0d8;
+  border: 1px solid #d6e9c6;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.error {
+  padding: 1em;
+  margin-bottom: 0.75rem;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #b94a48;
+  background-color: #f2dede;
+  border: 1px solid rgba(185, 74, 72, 0.3);
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
