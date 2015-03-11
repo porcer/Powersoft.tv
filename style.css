@@ -22,7 +22,7 @@ img {
 	min-height:75px;
 	max-width:374px;/* Ширина блока */
 	margin:0 auto;
-	background:#FFF url(img/1logo.png) no-repeat;
+	background:url(img/1logo.png) no-repeat;
 	background-size:100%;
 	/*cursor:pointer;*/
 }

@@ -21,20 +21,10 @@
 <link rel="stylesheet" href="media.css" type="text/css" media="all" />
 <link rel="icon" href="/favicon.ico" type="image/x-icon">
 <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-<link href="js/css/YTPlayer.css" media="all" rel="stylesheet" type="text/css">
+<link href="js/YTPlayer/css/YTPlayer.css" media="all" rel="stylesheet" type="text/css">
 <script type="application/javascript" src="js/jquery-1.11.2.min.js"></script>
 <script src="js/ajform.js"></script>
 <script type="text/javascript" src="//yastatic.net/share/share.js" charset="utf-8"></script>
- <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
-    <script src="js/inc/jquery.mb.YTPlayer.js"></script>
-<script>
-$(function(){
-      $(".player").YTPlayer();
-    });
-</script>
-</head>
-
-<body>
 <!-- Start SiteHeart code -->
 <script>
 (function(){
@@ -54,11 +44,22 @@ s.parentNode.insertBefore(hcc, s.nextSibling);
 })();
 </script>
 <!-- End SiteHeart code -->
+<script src="js/YTPlayer/inc/jquery.mb.YTPlayer.js"></script>
+<script>
+$(function(){
+      $(".player").YTPlayer();
+    });
+</script>
+</head>
+
+<body>
+
 
 <div id="wrapper">
-<div id="bgndVideo" class="player" 
-     data-property="{videoURL:'http://youtu.be/BsekcY04xvQ',containment:'body',autoPlay:true, mute:true, startAt:0, opacity:1}">
-</div>
+<a id="bgndVideo" class="player"
+   data-property="{videoURL:'Ei3WKsyJtqI',containment:'body', showControls:false, autoPlay:true, loop:true, vol:50, mute:true, startAt:10, opacity:1, addRaster:true, quality:'default',showYTLogo: false , optimizeDisplay:true}">My video</a> <!--BsekcY04xvQ-->
+
+
 	<img class="disabled" src="img/1logo.png" alt="">
     <img class="disabled" src="img/2logo.png" alt="">
     <div id="logo">&nbsp;</div>
