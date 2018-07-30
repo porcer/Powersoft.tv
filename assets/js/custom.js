@@ -76,6 +76,15 @@
 	   scrollTop: targetHeight
 	  }, 1000);
 	});
+
+	$('a.goto_href').on('click' , function(e){
+	  var target = $('[data-scroll='+$(this).attr('href')+']');
+	  e.preventDefault();
+	  var targetHeight = target.offset().top-parseInt(83);
+	  $('html, body').animate({
+	   scrollTop: targetHeight
+	  }, 1000);
+	});
 	
 	$(window).scroll(function() {
 	  var windscroll = $(window).scrollTop();
@@ -222,7 +231,7 @@ owl.owlCarousel({
 	loop:true,
 	autoplay:true,
 	animateIn: 'flipInX',
-	autoplayTimeout:5000
+	autoplayTimeout:15000
 })
 // main-slider ==================== end
 
