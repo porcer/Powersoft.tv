@@ -578,7 +578,6 @@ custom - media screen and (max-width: 1366px) Start
 
 @media screen and (max-width: 680px){
 	button.custom-btn, a.custom-btn {
-		width: 150px;
 		height: 60px;
 		line-height: 60px;
 	}
@@ -607,6 +606,12 @@ custom - media screen and (max-width: 1366px) Start
 ------------------------------------------------------------------------------------------ */
 
 @media screen and (max-width: 480px){
+	img.logo_img{
+		margin: 15px 10px;
+	}
+	.Section-title {
+		margin-bottom: 0;
+	}
 	body {
 		font-size: 14px;
 	}
@@ -683,6 +688,7 @@ custom - media screen and (max-width: 1366px) Start
 	.my-portfolio-section .element-item {
 		width: 100%;
 		display: block;
+		padding-bottom: 10px;
 	}
 
 	ul.brand-list li {

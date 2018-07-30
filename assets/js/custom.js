@@ -16,6 +16,7 @@
 	  $('html, body').animate({
 	   scrollTop: targetHeight
 	  }, 1000);
+      $(".button-collapse").click();
 	});
 	
 	$(window).scroll(function() {
